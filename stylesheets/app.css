@@ -1,5 +1,61 @@
 @import url(http://fonts.googleapis.com/css?family=Norican);
-/*font-family: 'Norican', cursive;*/
 @import url(http://fonts.googleapis.com/css?family=Cinzel:400,700,900);
-/*font-family: 'Cinzel', serif;*/
+
+body {
+    background-color: #102E34;
+    font-size: 14px;
+}
+
+.norican {
+    font-family: 'Norican', cursive;
+}
+
+.cinzel {
+    font-family: 'Cinzel', serif;
+}
+
+.yellow-dark {
+    color: #ADB61D;
+}
+
+.yellow-light {
+    color: #D8E240;
+}
+
+.small {
+    font-size: 20px;
+}
+
+.medium {
+    font-size: 30px;
+}
+
+.large {
+    font-size: 40px;
+}
+
+.xlarge {
+    font-size: 50px;
+}
+
+.center {
+    text-align: center;
+}
+
+#hello {
+    padding-top: 10px;
+}
+
+#skills {
+    line-height: 50px;
+    /*border: 2px dotted #ADB61D;*/
+}
+
+#sns {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-top: 7px double #ADB61D;
+}
+
+
 
