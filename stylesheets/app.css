@@ -44,18 +44,53 @@ body {
 
 #hello {
     padding-top: 10px;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+    animation: fadeIn 3s;
+
 }
 
 #skills {
     line-height: 50px;
     /*border: 2px dotted #ADB61D;*/
+    -webkit-animation: fadeIn 6s linear 1.5s both;
+    -moz-animation: fadeIn 6s linear 1.5s both;
+    -o-animation: fadeIn 6s linear 1.5s both;
+    -ms-animation: fadeIn 6s linear 1.5s both;
+    animation: fadeIn 6s linear 1.5s both;
 }
 
 #sns {
     padding-top: 20px;
     padding-bottom: 10px;
     border-top: 7px double #ADB61D;
+    -webkit-animation: fadeIn 9s linear 1.5s both;
+    -moz-animation: fadeIn 9s linear 1.5s both;
+    -o-animation: fadeIn 9s linear 1.5s both;
+    -ms-animation: fadeIn 9s linear 1.5s both;
+    animation: fadeIn 9s linear 1.5s both;
+
 }
 
 
+
+/*DEFINED ANIMATIONS*/
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0};
+    100% {opacity: 1;}
+}
+@-moz-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@-o-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@-ms-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
 
