@@ -42,19 +42,30 @@ body {
     text-align: center;
 }
 
-#hello {
+#hello-container {
     padding-top: 10px;
-    -webkit-animation: fadeIn 3s;
-    -moz-animation: fadeIn 3s;
-    -o-animation: fadeIn 3s;
-    -ms-animation: fadeIn 3s;
-    animation: fadeIn 3s;
+    padding-bootom: 20px;
+    border-bottom: 7px double #ADB61D;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+    animation: fadeIn 5s;
+}
 
+#hello { 
+    letter-spacing: 8px;
+}
+
+#kadozkreaccion {
+    padding-top: 20px;
 }
 
 #skills {
-    line-height: 50px;
+    /*line-height: 50px;*/
     /*border: 2px dotted #ADB61D;*/
+    margin-top: 40px;
+    margin-bottom: 40px;
     -webkit-animation: fadeIn 6s linear 1.5s both;
     -moz-animation: fadeIn 6s linear 1.5s both;
     -o-animation: fadeIn 6s linear 1.5s both;
@@ -63,7 +74,7 @@ body {
 }
 
 #sns {
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 10px;
     border-top: 7px double #ADB61D;
     -webkit-animation: fadeIn 9s linear 1.5s both;
