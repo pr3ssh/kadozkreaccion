@@ -43,8 +43,8 @@ body {
 }
 
 #hello-container {
-    padding-top: 10px;
-    padding-bootom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border-bottom: 7px double #ADB61D;
     -webkit-animation: fadeIn 5s;
     -moz-animation: fadeIn 5s;
@@ -58,13 +58,14 @@ body {
 }
 
 #kadozkreaccion {
-    padding-top: 20px;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 
 #skills {
     /*line-height: 50px;*/
     /*border: 2px dotted #ADB61D;*/
-    margin-top: 40px;
+    margin-top: 60px;
     margin-bottom: 40px;
     -webkit-animation: fadeIn 6s linear 1.5s both;
     -moz-animation: fadeIn 6s linear 1.5s both;
