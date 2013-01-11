@@ -46,11 +46,10 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
     border-bottom: 7px double #ADB61D;
+    animation: fadeIn 5s;
     -webkit-animation: fadeIn 5s;
     -moz-animation: fadeIn 5s;
     -o-animation: fadeIn 5s;
-    -ms-animation: fadeIn 5s;
-    animation: fadeIn 5s;
 }
 
 #hello { 
@@ -67,30 +66,32 @@ body {
     /*border: 2px dotted #ADB61D;*/
     margin-top: 60px;
     margin-bottom: 40px;
+    animation: fadeIn 6s linear 1.5s both;
     -webkit-animation: fadeIn 6s linear 1.5s both;
     -moz-animation: fadeIn 6s linear 1.5s both;
     -o-animation: fadeIn 6s linear 1.5s both;
-    -ms-animation: fadeIn 6s linear 1.5s both;
-    animation: fadeIn 6s linear 1.5s both;
 }
 
 #sns {
     padding-top: 10px;
     padding-bottom: 10px;
     border-top: 7px double #ADB61D;
+    animation: fadeIn 9s linear 1.5s both;
     -webkit-animation: fadeIn 9s linear 1.5s both;
     -moz-animation: fadeIn 9s linear 1.5s both;
     -o-animation: fadeIn 9s linear 1.5s both;
-    -ms-animation: fadeIn 9s linear 1.5s both;
-    animation: fadeIn 9s linear 1.5s both;
 
 }
 
 
 
 /*DEFINED ANIMATIONS*/
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
 @-webkit-keyframes fadeIn {
-    0% {opacity: 0};
+    0% {opacity: 0;}
     100% {opacity: 1;}
 }
 @-moz-keyframes fadeIn {
@@ -98,10 +99,6 @@ body {
     100% {opacity: 1;}
 }
 @-o-keyframes fadeIn {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
-}
-@-ms-keyframes fadeIn {
     0% {opacity: 0;}
     100% {opacity: 1;}
 }
