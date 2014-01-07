@@ -18,7 +18,15 @@ body {
     color: #ADB61D;
 }
 
+.yellow-dark:hover {
+    color: #ADB61D;
+}
+
 .yellow-light {
+    color: #D8E240;
+}
+
+.yellow-light:hover {
     color: #D8E240;
 }
 
@@ -83,7 +91,14 @@ body {
 
 }
 
+.link {
+  
+}
 
+.link:hover { 
+    padding-bottom: 2px;
+    border-bottom: 3px solid #ADB61D;
+}
 
 /*DEFINED ANIMATIONS*/
 @keyframes fadeIn {
